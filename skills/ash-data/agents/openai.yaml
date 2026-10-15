@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Data"
+  short_description: "AshPostgres migrations, constraints, and concurrency"
+  default_prompt: "Use $ash-data to implement the smallest safe persistence change, inspect generated migrations, and verify database invariants, concurrency, and query behavior."
+
+policy:
+  allow_implicit_invocation: true

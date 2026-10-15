@@ -1,0 +1,7 @@
+interface:
+  display_name: "Elixir Stack"
+  short_description: "Standard Elixir, Phoenix, Ecto and Oban tools; never hand-build a queue"
+  default_prompt: "Use $elixir-stack to name the standard Elixir, Phoenix, Ecto or Oban tool for each moving part before building or reviewing, and use Oban for any durable, retried or scheduled work."
+
+policy:
+  allow_implicit_invocation: true

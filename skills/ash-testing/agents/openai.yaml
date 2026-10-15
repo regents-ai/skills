@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Testing"
+  short_description: "Keep Ash tests few and justified; report truthful verification evidence"
+  default_prompt: "Use $ash-testing to prove the changed behavior through the real Ash interfaces, adding a test only when the founder agreed it for a specific requirement or regression, and reporting only checks that actually ran."
+
+policy:
+  allow_implicit_invocation: true

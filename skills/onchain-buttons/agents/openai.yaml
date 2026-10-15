@@ -1,0 +1,7 @@
+interface:
+  display_name: "On-chain buttons"
+  short_description: "Wallet and on-chain buttons in LiveView hooks: every press reaches the wallet, the server checks the result"
+  default_prompt: "Use $onchain-buttons (after $ash-stack and $ash-frontend) to build the wallet button as a hook click listener that sends from Privy's active wallet when it is one of the account's own, reports the hash, and lets the server check the result at the latest block."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Backend"
+  short_description: "Resources, actions, relationships, and domain workflows"
+  default_prompt: "Use $ash-backend to implement the domain behavior through documented Ash actions and code interfaces, preserving authorization and concurrency."
+
+policy:
+  allow_implicit_invocation: true

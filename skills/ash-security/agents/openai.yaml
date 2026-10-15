@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Security"
+  short_description: "Trusted scopes, policies, tenants, and safe exposure"
+  default_prompt: "Use $ash-security to trace actor and tenant provenance, enforce authorization on the real Ash action, and verify denied access and data exposure paths."
+
+policy:
+  allow_implicit_invocation: true

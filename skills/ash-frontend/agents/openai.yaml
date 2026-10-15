@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Frontend"
+  short_description: "AshPhoenix forms and accessible, reliable LiveView UI"
+  default_prompt: "Use $ash-frontend to build a clear, accessible LiveView interface backed by the existing Ash actions, with correct form, loading, error, and reconnect behavior."
+
+policy:
+  allow_implicit_invocation: true

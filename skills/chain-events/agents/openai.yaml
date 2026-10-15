@@ -1,0 +1,7 @@
+interface:
+  display_name: "Chain events"
+  short_description: "Watch a chain at the latest block, save each event once with Ash, and show it on LiveView pages"
+  default_prompt: "Use $chain-events (after $ash-stack, $ash-data and $ash-frontend) to watch the contract's events at the latest block, record each one once with a cursor, and update pages through Ash notifications after commit."
+
+policy:
+  allow_implicit_invocation: true

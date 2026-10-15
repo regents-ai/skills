@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ash Stack"
+  short_description: "Ash-first full-stack delivery with version-aware checks"
+  default_prompt: "Use $ash-stack to inspect this project and implement the requested change with version-matched Ash patterns and a concise evidence-based handoff."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Anime.js"
+  short_description: "Anime.js v4 motion in LiveView TypeScript hook islands"
+  default_prompt: "Use $animejs (after $ash-stack and $ash-frontend) to build the motion as a TypeScript LiveView hook that survives server patches, respects reduced motion and never gates on-chain actions."
+
+policy:
+  allow_implicit_invocation: true
